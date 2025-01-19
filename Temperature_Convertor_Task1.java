@@ -31,6 +31,7 @@ public class Temperature_Convertor_Task1
 				else if(select == 'F')
 				{
 					convertedTemperature = (value - 32) * 5 / 9;
+					convertedUnit = "Celsius";
 				}
 				else
 				{
